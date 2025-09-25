@@ -1,0 +1,28 @@
+<!--Crie um formulário simples com 4 botões e um parágrafo que, ao clicar em cada um, altere o
+texto do parágrafo para vermelho, verde, azul e amarelo, respectivamente-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleSheet" href="Q1.CSS">
+</head>
+<body>
+    <h2>Clique nos botões para trocar de cor:</h2>
+
+    <form>
+        <p id="paragrafo">troque minha cor</p>
+
+        <button type ="button" onclick="trocarVermelho()" class="botaoVermelho" >Vermelho</button>
+        <button type ="button" onclick="trocarVerde()" class="botaoVerde">Verde</button>
+        <button type="button" onclick="trocarAzul()" class="botaoAzul">Azul</button>
+        <button type="button" onclick="trocarAmarelo()" class="botaoAmarelo" >Amarelo</button>
+
+    </form>
+    
+    <script src="Q1.js"></script>
+</body>
+</html>
+

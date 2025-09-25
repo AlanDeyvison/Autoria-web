@@ -1,0 +1,19 @@
+.azul {color:blue;}
+
+.vermelho {color:red;}
+
+.verde {color:green;}
+
+.amarelo {color:yellow;}
+
+body {
+    background-color: rgb(216, 197, 163);
+}
+
+.botaoVermelho {background-color:red; color:white;}
+
+.botaoVerde {background-color:green; color:white;}
+
+.botaoAzul {background-color: blue; color:white;}
+
+.botaoAmarelo {background-color: yellow; color: black;}
