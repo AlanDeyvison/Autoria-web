@@ -1,0 +1,50 @@
+<!--10) Escreva um script que receba três números fornecidos pelo usuário através de um formulário 
+exiba em os números digitados em forma de tabela, a soma, a média, o produto, o maior e 
+menor número. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h3>Digite 3 numeros para preencher a tabela</h3>
+    <form>
+        <label for="num1">*</label>
+        <input type="number" id="num1"  name="numero" placeholder="digite um numero"> <br>
+        <label for="num2">*</label>
+        <input type="number" id="num2"  name="numero" placeholder="digite um numero"> <br>
+        <label for="num3">*</label>
+        <input type="number" id="num3"  name="numero" placeholder="digite um numero">
+    </form>
+    <br>
+    <button type="button" onclick="criarTabela()">Preencher a tabela</button>
+    
+    </div>
+    <br>
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>soma</th>
+            <th>produto</th>
+            <th>media</th>
+            <th>maior</th>
+            <th>menor</th>
+        </tr>
+        <tr>
+            <td id="resultSoma"></td>
+            <td id="resultProduto"></td>
+            <td id="resultMedia"></td>
+            <td id="resultMaior"></td>
+            <td id="resultMenor"></td>            
+        </tr>
+    </table>
+
+
+    <script src="Q10.js"></script>
+</body>
+</html>

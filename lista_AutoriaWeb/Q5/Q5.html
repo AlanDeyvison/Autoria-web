@@ -1,0 +1,31 @@
+<!--5) Crie um formulário com os campos para cadastrar o usuário de um sistema (login, senha e 
+confirmar senha).-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Q5.CSS">
+</head>
+<body>
+    <form>
+        <fieldset name="cadastro de usuario">
+            <legend>preencha os campos para cadastrar:</legend>
+            <label for="usuario">*</label>
+            <input type="text"  name="usuario" id="usuario" placeholder="Usário"> <br>
+            <label for="senha">*</label>
+            <input type="password" name="senha" id="senha" placeholder="senha"> <br>
+            <label for="confirmacao">*</label>
+            <input type="password" name="confirmacao" id="confirmacao" placeholder="Confirme sua senha">
+        </fieldset>
+        <button type="button" onclick="cadastrar()">CADASTRAR</button> 
+        <!--vou deixar como button pois o submit atualiza a pag-->
+
+    </form>
+
+    <script src="Q5.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!--8) Crie um formulário de cadastro de CPF cliente. Crie uma função para verificar se o CPF é válido. 
+Crie um parágrafo para informar se o CPF é válido ou inválido. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Q8.CSS">
+</head>
+<body>
+    <h3>Verificar CPF</h3>
+
+    <form>
+        <legend></legend>
+        <label for="cpf">CPF</label>
+        <input type="number" name="cpf" id="cpf" placeholder="preencha com números">
+    </form>
+    <button type="button" onclick="verificarCPF()" id="verificar">Verificar</button>
+
+    <p id="resultado"></p>
+    
+    <script src="Q8.js"></script>
+</body>
+</html>

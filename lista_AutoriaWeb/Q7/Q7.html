@@ -1,0 +1,48 @@
+<!--7) Crie um código em Javascript que receba os nomes de 5 pessoas através de campos de 
+formulário. Ao clicar em um botão Inverter, armazene-os em um array e apresente os valores 
+nos mesmos campos do formulário, porém na ordem inversa da que foram inicialmente 
+digitados. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+        <label for="nome1">nome 1</label>
+        <input type="text" name="nome" id="nome1"> <br>
+        </div>
+        
+        <div>
+        <label for="nome2">nome 2</label>
+        <input type="text" name="nome" id="nome2">
+        </div>
+
+        <div>
+        <label for="nome3">nome 3</label>
+        <input type="text" name="nome" id="nome3"> 
+        </div>
+
+        <div>
+        <label for="nome4">nome 4</label>
+        <input type="text" name="nome" id="nome4"> 
+        </div>
+
+        <div>
+        <label for="nome5">nome 5</label>
+        <input type="text" name="nome" id="nome5">
+        </div>
+
+    </form>
+    
+    <p id="teste"></p>
+
+    <button type="button" onclick="inverter()">Inverter</button>
+    
+    <script src="Q7.js"></script>
+</body>
+</html>

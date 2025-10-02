@@ -1,0 +1,27 @@
+<!--6) Fazer uma função para identificar se a palavra digitada no input type=text pelo usuário é um 
+palíndromo ou não. Uma palavra é denominada um palíndromo se for invertida e a leitura dela 
+permanecer sem nenhuma alteração. Ex.: aba, radar, reter, rever, rir. Após criada, chame a 
+função usando eventos. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>is palindromo or not?<h3>
+    <div>
+        <form>
+            <label for="palindromo"  ></label>
+            <input type="text" name="palavra" id="palindromo" placeholder="escreva sua palavra">
+        </form>
+        <button type="button" onclick="verificarPalindromo()">Verificar</button>
+        
+        <p id="resultado"></p>
+    </div>
+    
+    <script src="Q6.js"></script>
+</body>
+</html>
