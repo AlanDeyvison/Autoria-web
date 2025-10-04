@@ -1,0 +1,25 @@
+<!--13) Faça um script que receba uma data no formato “dd/mm/aaaa” e escreva a data por 
+extenso. Dica: use a função “split” de uma string que quebra a string em pedaços dado um 
+separador como argumento da função. Nesse caso, o separador é a barra (/) da data. Exemplo: 
+Para a entrada “06/09/2024” deve ser escrito “06 de setembro de 2024”. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+            <label for="data">digite uma data:</label>
+           <!--<input type="date" id="data" placeholder="dd//mm/aaaa">--> 
+           <input type="text" id="data" placeholder="dd/mm/aaaa" maxlength="10">
+    </form>
+    <button type="button" id="transformar" onclick="formatarData()">transformar</button>
+    
+    <div id="result"></div>
+
+    <script src="Q13.js"></script>
+</body>
+</html>

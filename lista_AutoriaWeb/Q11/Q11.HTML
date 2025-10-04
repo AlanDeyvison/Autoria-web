@@ -1,0 +1,56 @@
+<!--10) Escreva um script que receba três números fornecidos pelo usuário através de um formulário 
+exiba em os números digitados em forma de tabela, a soma, a média, o produto, o maior e 
+menor número. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form >
+        <label for="numero">*</label>
+        <input type="number" id="numero"  name="numero" placeholder="digite um numero">
+    </form>
+    <br>
+
+    <button type="button" onclick="tabuada()">Tabuar</button>
+    
+    <br>
+    <br>
+
+    <h3>Tabuada</h3>
+    <table border="1">
+        <tr>
+            <th id="x1"></th> <!--colocar o numero, tipo: numero + "*1"-->
+            <th id="x2" ></th>
+            <th id="x3"></th>
+            <th id="x4"></th>
+            <th id="x5"></th>
+            <th id="x6"></th>
+            <th id="x7"></th>
+            <th id="x8"></th>
+            <th id="x9"></th>
+            <th id="x10"></th>
+        </tr>
+        <tr>
+            <td id="result1"></td>
+            <td id="result2"></td>
+            <td id="result3"></td>
+            <td id="result4"></td>
+            <td id="result5"></td>
+            <td id="result6"></td>
+            <td id="result7"></td>
+            <td id="result8"></td>
+            <td id="result9"></td>
+            <td id="result10"></td>
+            
+        </tr>
+    </table>
+
+    <script src="Q11.JS"></script>
+</body>
+</html>

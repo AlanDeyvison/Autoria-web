@@ -1,0 +1,102 @@
+<!--12) Crie uma página contendo um determinado texto (pode ser qualquer texto da internet). 
+Acima do texto, inclua um formulário com um campo e um botão Pesquisar. Ao digitar uma 
+palavra dentro do campo e pressionar o botão Pesquisar, conte quantas ocorrências daquela 
+palavra existem ao longo do texto e destaque cada ocorrência com um plano de fundo amarelo 
+(conforme esse exemplo: palavra). Caso a palavra não exista no texto, exiba uma mensagem 
+abaixo do campo de texto indicando que a busca não retornou nenhum resultado. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Q12.css">
+</head>
+<body>
+
+    <form>
+        <label for="pesquisa">*</label>
+        <input type="text" id="pesquisa" name="pesquisa" placeholder="pesquise a palavra">
+    </form>
+    <br>
+    <button type="button" id="pesquisar" onclick="pesquisarPalavra()">pesquisar</button>
+
+    <div id="resultadoBusca"></div>
+
+    <br>
+
+    <div class="textoClass">
+        <p>Lança menina, lança todo esse perfume <br>
+        Desbaratina, não dá pra ficar imune <br>
+        Ao teu amor que tem cheiro de coisa maluca <br>
+        </p>
+
+        <p>Vem cá, meu bem, me descola um carinho <br>
+        Eu sou neném, só sossego com beijinho <br>
+        Vê se me dá, o prazer de ter prazer comigo <br>
+        </p>
+
+        <p>Me aqueça <br>
+        Me vira de ponta cabeça <br>
+        Me faz de gato e sapato <br>
+        E me deixa de quatro no ato <br>
+        Me enche de amor, de amor <br>
+        </p>
+
+        <p>Lança menina, lança todo esse perfume <br>
+        Desbaratina, não dá pra ficar imune <br>
+        Ao teu amor que tem cheiro de coisa maluca <br>
+        </p>
+
+        <p>Vem cá, meu bem, me descola um carinho <br>
+        Eu sou neném, só sossego com beijinho <br>
+        E vê se me dá, o prazer de ter prazer comigo <br>
+        </p>
+
+        <p>Me aqueça <br>
+        Me vira de ponta cabeça <br>
+        Me faz de gato e sapato <br>
+        Ah, me deixa de quatro no ato <br>
+        Me enche de amor, de amor <br>
+        </p>
+
+        <p>Lança, lança perfume <br>
+        Ooh, lança, lança perfume <br>
+        Ooh, lança, lança, lança perfume <br>
+        Lança perfume <br>
+        </p>
+
+        <p>Lança menina, lança todo esse perfume <br>
+        Desbaratina, não dá pra ficar imune <br>
+        Ao teu amor que tem cheiro de coisa maluca <br>
+        </p>
+
+        <p>Vem cá, meu bem, me descola um carinho <br>
+        Eu sou neném, só sossego com beijinho <br>
+        Vê se me dá, o prazer de ter prazer comigo <br>
+        </p>
+        
+        <p>Me aqueça <br>
+        Me vira de ponta cabeça <br>
+        Me faz de gato e sapato <br>
+        Me deixa de quatro no ato <br>
+        Me enche de amor, de amor <br>
+        </p>
+
+        <p>Lança, lança perfume <br>
+        Ooh, lança, lança perfume <br>
+        Lança, lança, lança perfume <br>
+        Lança perfume <br>
+        Lança perfume <br>
+        Ooh, lança perfume, lança perfume <br>
+        Ooh, lança, lança perfume <br>
+        Lança perfume <br>
+        Lança perfume <br>
+        Ooh, lança perfume... <br>
+        </p>
+    </div>
+
+    <script src="Q12.js"></script>
+</body>
+</html>
