@@ -18,12 +18,11 @@ function criarTabela(){
 
     //media e produto
     for(let i = 0; i < numeros.length; i++){
-        media += numeros[i];
         produto *= numeros[i];
         soma += numeros[i];
     }
     //produto = media;
-    media = media/numeros.length;
+    media = soma/numeros.length;
 
     //maior e menor
     for(let i = 1; i < numeros.length; i++){
